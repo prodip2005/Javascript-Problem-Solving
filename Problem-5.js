@@ -1,8 +1,8 @@
 // Dplicates
 function removeDuplicates(arr) {
-    var singleNum = [];
+    let singleNum = [];
 
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (singleNum.indexOf(arr[i]) === -1) {
             singleNum.push(arr[i]);
         }

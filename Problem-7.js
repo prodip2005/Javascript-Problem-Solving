@@ -1,7 +1,7 @@
 function findEvenNumbers(arr) {
-    var evenNumbers = [];
+    let evenNumbers = [];
 
-    for (var i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         if (arr[i] % 2 === 0) {
             evenNumbers.push(arr[i]);
         }
