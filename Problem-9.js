@@ -1,3 +1,4 @@
+// Factorial
 function factorial(num) {
     let result = 1;
 
